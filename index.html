@@ -1,8 +1,36 @@
 <html>
 <head>
+<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>
 Nafis github
 </title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    	<link rel="preconnect" href="https://fonts.googleapis.com">
+    	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+    	<script>    
+    		tailwind.config = {  
+    			
+    			darkMode: 'class', // or 'media'    
+    			theme: {    
+    				display: ["group-hover"],
+    				extend: {
+    					fontFamily: {
+    						sans: [
+    							// '"Inter"',
+    							'Outfit',
+    							],
+    					},
+    					colors:({ colors }) => ({
+                            'custom': colors.sky,
+                            'custom2': colors.gray,
+        				}),
+    				}, 
+    			},
+    		} 
+    	</script> 
 </head>
 <body>
 Hello World!<br>
